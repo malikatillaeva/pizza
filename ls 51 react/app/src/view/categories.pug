@@ -1,0 +1,7 @@
+.categories 
+    ul 
+      each val in ['Все', 'Мясные', 'Вегетарианская', 'Гриль', 'Острые', 'Закрытые']
+        if val == 'Все'
+            li.active= val 
+        else 
+            li= val
